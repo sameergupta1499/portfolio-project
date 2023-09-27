@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box; /* Keeps padding and border within element's dimensions */
+  font-size: 1vw;   /* For 1200 screens */
+  overflow: hidden;
+  color: #000000;
+  font-family: 'Josefin Sans', sans-serif;
+  
+}
+html{
+  scroll-behavior: auto;
+  transition: scroll-behavior 1s ease-out;
+}
+/* Normalize - Consistently styles elements across browsers */
+/* Example using a link to normalize.css */
+/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1;
+  // letter-spacing: ;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* List Styles */
+ul, ol {
+  list-style: none; /* Remove bullet points from list items */
+}
+
+/* Typography Styles */
+h1, h2, h3, h4, h5, h6 {
+  // margin: 0.5em 0;
+  font-weight: 300;
+}
+
+/* Heading Margins */
+h1 { font-size: 7rem; }
+h2 { font-size: 4.5rem; }
+h3 { font-size: 4rem; }
+// h4 { font-size: 1.5rem; }
+h4 { font-size: 2rem; }
+h5 { font-size: 1.5rem; }
+h6 { font-size: 1rem; }
+
+/* Basic Box Sizing for All Elements */
+/* Note: This is already included in the reset example */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+// Scroll for cross browser
+/* Apply overflow hidden to specific elements that might have scrollbars */
+body,
+div,
+section,
+article,
+aside,
+nav,
+ul,
+ol,
+dl,
+table,
+fieldset {
+  overflow: hidden;
+}
+::-webkit-scrollbar {
+width: 0;  /* Remove scrollbar space */
+background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+background: #FF0000;
+}
+
+@media (max-width: 768px) { /* You can adjust the breakpoint to your preferred mobile width */
+  * {
+    font-size: 1vh;   
+  }
+  /* Heading Margins */
+// h1 { font-size: 9rem; }
+// h2 { font-size: 5.5rem; }
+// h3 { font-size: 2.5rem; }
+// h4 { font-size: 1.5rem; }
+// h5 { font-size: 1.25rem; }
+// h6 { font-size: 1rem; }
+  
+}
+
+// FONTS IMPORT 
+@font-face {
+  font-family: 'Brand';
+  src: url('/fonts/Brand.woff2') format('woff2'),
+       url('/fonts/Brand.woff') format('woff'),
+       url('/fonts/Brand.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// FONTS IMPORT 
+@font-face {
+  font-family: 'Brand';
+  src: url('/fonts/Brand.woff2') format('woff2'),
+       url('/fonts/Brand.woff') format('woff'),
+       url('/fonts/Brand.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fortune';
+  src: url('/fonts/Fortune-Script.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Brandon-Grotesque-Light';
+  src: url('/fonts/Brandon-Grotesque-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

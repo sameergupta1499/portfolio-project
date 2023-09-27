@@ -1,0 +1,92 @@
+@import "@/styles/variables.scss";
+.slide-up {
+    position: relative;
+    top: 200px;
+    animation: slideUp 1s ease-in-out forwards;
+    --delay: 5s; /* Delay in seconds */
+    animation-delay: var(--delay,1s); 
+  }
+
+  .slide-up-navbar {
+    overflow: hidden;
+    transform: translateY(-100%);
+  }
+
+  .transform-default{
+    transition: transform 0.1s ease;
+  }
+  @keyframes slideUp {
+    to {
+      top: 0;
+    }
+  }
+
+.tilt-shaking {
+    animation: horizontal-shaking 2s linear infinite;
+}
+
+@keyframes horizontal-shaking {
+  0% { transform: translateX(0px); }
+  25% { transform: translateX(5px); }
+  50% { transform: translateX(0px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0px); }
+}
+.tilt-n-move-shaking:hover {
+  animation: tilt-n-move-shaking-kf .2s linear infinite;
+}
+@keyframes tilt-n-move-shaking-kf {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(1px, 1px) rotate(.6deg); }
+  50% { transform: translate(0, 0) rotate(0eg); }
+  75% { transform: translate(-1px, 1px) rotate(.6deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+.shine-effect {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  
+  &:after {
+    content: '';
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    left: auto;
+    top: 0;
+    bottom: 0;
+    right: -20%;
+    background-image: 
+    linear-gradient(135deg, 
+    rgba(207, 92, 9, 0),
+    rgba(207, 92, 9, 1),
+    rgba(207, 92, 9, 0)
+    );
+  }
+  &:hover {
+    
+    &:after {
+    transition: all 1s ease-out;
+      right: 100%;
+    }
+  }
+}
+
+.load-logo {
+
+  animation: loadLogo 1.5s ease-in-out forwards;
+  // animation-delay: 0.5s; /* Adjust as needed */
+}
+@keyframes loadLogo {
+  0% {
+    transform: translate(calc(-50% + 50vw), calc(-50% + 50vh)) scale(2);
+    background-color: black;
+  }
+  100% {
+    transform: translate(0) scale(1);
+    background-color: none;
+    left:calc($x-gutter-l);
+  }
+}
