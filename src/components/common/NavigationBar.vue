@@ -2,19 +2,19 @@
     <div class="flexCenter vpW navbar transform-default" :class="{ 'navbar-hide': isNavbarHidden }" ref="navbarRef">
         <div class="navbar-logo-container">
             <a href="" class="logo-link">
-                <img src="logo.png" id="logo-img" class="orange-hover"
+                <img src="/logo.png" id="logo-img" class="orange-hover"
                     alt="Logo" />
             </a>
         </div>
         <div class="navbar-logo-container">
             <a href="https://www.linkedin.com/in/sameer-gupta-a9531612a" class="logo-link" target="_blank">
-                <img src="linkedin.png" class="contact-links" id="linkedin-img" alt="linkedin-img"/>
+                <img src="/linkedin.png" class="contact-links" id="linkedin-img" alt="linkedin-img"/>
             </a>
             <a href="https://github.com/sameergupta1499" class="logo-link" target="_blank">
-                <img src="github.png" class="contact-links" id="github-img" alt="github-img"/>
+                <img src="/github.png" class="contact-links" id="github-img" alt="github-img"/>
             </a>
             <a href="" class="logo-link" target="_blank">
-                <img src="resume.png" class="contact-links" id="resume-img" alt="resume-img"/>
+                <img src="/resume.png" class="contact-links" id="resume-img" alt="resume-img"/>
             </a>
         </div>
     </div>
