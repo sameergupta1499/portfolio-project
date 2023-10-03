@@ -2,7 +2,7 @@
     <div class="flexCenter vpW navbar transform-default" :class="{ 'navbar-hide': isNavbarHidden }" ref="navbarRef">
         <div class="navbar-logo-container">
             <a href="" class="logo-link">
-                <img src="https://ik.imagekit.io/cjciua4b58/hue-and-tint-studio/logo.png" id="logo-img" class="orange-hover"
+                <img src="logo.png" id="logo-img" class="orange-hover"
                     alt="Logo" />
             </a>
         </div>
@@ -142,7 +142,7 @@ $logoHeight: 9vh;
 }
 
 #logo-img {
-    height: 100%;
+    height: 80%;
     width: auto;
     object-fit: contain;
 }

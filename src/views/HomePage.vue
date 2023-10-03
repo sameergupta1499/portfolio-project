@@ -43,6 +43,7 @@ export default {
   height: 100vh;
   width: 100%;
   overflow: auto;
+  background-color: var(--black);
 }
 
 /* .container-scrollbar {

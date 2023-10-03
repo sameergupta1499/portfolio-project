@@ -6,7 +6,7 @@
   font-size: 1vw;   /* For 1200 screens */
   overflow: hidden;
   color: #000000;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   
 }
 html{
@@ -118,6 +118,12 @@ background: #FF0000;
 @font-face {
   font-family: 'Fortune';
   src: url('/fonts/Fortune-Script.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Revamped';
+  src: url('/fonts/Revamped.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }

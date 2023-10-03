@@ -1,13 +1,16 @@
 <template>
-  <div class="vpContainer hero-container flexCenterColumn">
-    <h2 class="hero-heading white-color">
-      FULL STACK <br/>DEVELOPER
+  <div class="vpContainer hero-container position-relative flexCenter">
+    <div class="hero-content flexCenterColumn overflow-visible">
+      <h4 class="hero-description-top white-color overflow-visible">Hi, My name is Sameer Gupta,</h4>
+    <div class="hero-hedding-container">
+      <h2 class="hero-heading white-color fontface-revamped flexCenterColumn">
+      FULL-STACK WEB DEVELOPER
     </h2>
-    <h4 class="hero-description white-color">
-      Hey there, I'm Sameer Gupta, a software engineer with a strong focus <br/>on backend development and four years of
-      practical experience. I'm all <br/>about turning ideas into real, efficient solutions that help businesses <br/>grow. Welcome
-      to my coding journey!
-    </h4>
+    </div>
+    <h4 class="hero-description-bottom white-color overflow-visible">
+      with a strong focus on backend development and 4+ years of practical experience. I'm all about turning ideas into real, efficient solutions that help businesses grow. Welcome to my coding journey!</h4>
+    </div>
+
   </div>
 </template>
   
@@ -31,7 +34,7 @@ export default {
   background-size: cover;
   background-position: center;
   position: relative;
-  align-items: flex-start;
+  // align-items: flex-start;
 }
 
 .hero-container::before {
@@ -46,12 +49,26 @@ export default {
   z-index: 1;
   /* Ensure the overlay is on top of the background image */
 }
+.hero-content{
+  padding: 0 10%;
+}
+
 .hero-heading {
   font-weight: 600;
-  padding:4rem 4rem 2rem 4rem;
+  z-index: 2;
+  text-align: center;
 }
-.hero-description {
-  padding:0 4rem 2rem 4rem;
-  font-family: 'Josefin Sans';
+
+.hero-description-top {
+  z-index: 2;
+}
+
+.hero-description-bottom {
+  z-index: 2;
+  text-align: center;
+}
+.hero-hedding-container{
+ padding:1rem;
+ z-index: 2;
 }
 </style>
