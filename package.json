@@ -1,5 +1,6 @@
 {
   "name": "portfolio-project",
+  "base": "/portfolio-project/",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://sameergupta1499.github.io/portfolio-project",
