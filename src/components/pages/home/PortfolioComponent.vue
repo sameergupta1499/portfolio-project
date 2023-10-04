@@ -3,8 +3,8 @@
     <div class="vpContainer hero-container position-relative">
         <div class="flexCenter project-container">
             <VideoComponent videoSrc="/ecommerce-video.mp4" />
-            <div class="project-content-container flexCenterColumn">
-                <h4 class="project-content-header white-color">
+            <div class="project-content-container flexCenterColumn overflow-visible">
+                <h4 class="project-content-header white-color overflow-visible">
                     Ecommerce Website
                 </h4>
                 <h6 class="project-content-description white-color">
@@ -60,6 +60,8 @@ export default {
 .project-content-header {
     padding-bottom: 1rem;
     font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
 }
 
 .project-content-description {
@@ -70,7 +72,6 @@ export default {
     .project-content-container {
         width: 80%;
         padding: 10%;
-        align-items: flex-start;
         text-align: center;
         align-items: center;
     }
