@@ -5,7 +5,7 @@
     <div class="container project-container-wrapper position-relative">
         <div class="flexCenter project-container">
             <VideoComponent
-                videoSrc="https://ik.imagekit.io/4wtsetrh6/portfolio-project/ecommerce-video.mp4?updatedAt=Latest" />
+                videoSrc="https://ik.imagekit.io/4wtsetrh6/portfolio-project/portfolioProjectVideo.mp4?updatedAt=Latest" />
             <div class="project-content-container padding-left flexCenterColumn overflow-visible">
                 <div class="project-content-header flexCenter">
                     <h4 class="white-color font-weight-five overflow-visible">
@@ -65,7 +65,7 @@
             </div>
 
     <VideoComponent
-                videoSrc="https://ik.imagekit.io/4wtsetrh6/portfolio-project/hue-and-tint-studio.mp4?updatedAt=Latest" />
+                videoSrc="https://ik.imagekit.io/4wtsetrh6/portfolio-project/hueandtintstudiovideo.mp4?updatedAt=Latest" />
         </div>
     </div>
 </template>
