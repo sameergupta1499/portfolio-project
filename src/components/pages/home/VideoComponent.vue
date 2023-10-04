@@ -61,6 +61,7 @@ $video-width: 40%;
     -webkit-border-radius: 3rem;
     -moz-border-radius: 3rem;
     border-radius: 3rem;
+    border: 2px solid white;
 }
 
 .video-wrapper video {
