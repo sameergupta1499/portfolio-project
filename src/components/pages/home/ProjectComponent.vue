@@ -1,15 +1,18 @@
 <template>
     <ProjectsSectionHeadingComponent />
+
     <!-- ECOMMERCE WEBSITE -->
-    <div class="vpContainer hero-container position-relative">
+    <div class="container project-container-wrapper position-relative">
         <div class="flexCenter project-container">
-            <VideoComponent videoSrc="https://ik.imagekit.io/4wtsetrh6/portfolio-project/ecommerce-video.mp4?updatedAt=Latest" />
-            <div class="project-content-container flexCenterColumn overflow-visible">
+            <VideoComponent
+                videoSrc="https://ik.imagekit.io/4wtsetrh6/portfolio-project/ecommerce-video.mp4?updatedAt=Latest" />
+            <div class="project-content-container padding-left flexCenterColumn overflow-visible">
                 <div class="project-content-header flexCenter">
                     <h4 class="white-color font-weight-five overflow-visible">
                         Ecommerce Website
                     </h4>
-                    <a href="https://sameergupta1499.github.io/ecommerce_website_frontend/" target="_blank"><button class="try-now-button">Try Now</button></a>
+                    <a href="https://sameergupta1499.github.io/ecommerce_website_frontend/" target="_blank"><button
+                            class="try-now-button">Try Now</button></a>
                 </div>
                 <h6 class="project-content-description white-color ">
                     Fully functional product listing page for an ecommerce website.
@@ -18,17 +21,51 @@
                     TECHNOLOGIES :
                 </h6>
                 <h6 class="project-content-description ">
-                    <span>Backend - </span>  Python, Django Rest Framework, PostgreSQL, Redis Cache.
+                    <span>Backend - </span> Python, Django Rest Framework, PostgreSQL, Redis Cache.
                 </h6>
                 <h6 class="project-content-description">
-                    <span>Frontend - </span>  Vue3
+                    <span>Frontend - </span> Vue3
                 </h6>
                 <h6 class="project-content-description">
-                    <span>DevOps -  </span>   EC2 (Linux), Gunicorn, Nginx, Github Workflows & Actions, Github Pages, Amazon RDS PostgreSQL
+                    <span>DevOps - </span> EC2 (Linux), Gunicorn, Nginx, Github Workflows & Actions, Github Pages, Amazon
+                    RDS PostgreSQL
                 </h6>
             </div>
 
 
+        </div>
+    </div>
+
+    <!-- HUE AND TINT STUDIO -->
+    <div class="container project-container-wrapper position-relative">
+        <div class="flexCenter project-container">
+            <div class="project-content-container padding-right flexCenterColumn overflow-visible">
+                <div class="project-content-header flexCenter">
+                    <h4 class="white-color font-weight-five overflow-visible">
+                        Hue And Tint Studio
+                    </h4>
+                    <a href="https://www.hueandtintstudio.com/" target="_blank"><button
+                            class="try-now-button">Try Now</button></a>
+                </div>
+                <h6 class="project-content-description white-color ">
+                    A portfolio website showcasing the creative works of a graphic designer.
+                </h6>
+                <h6 class="project-content-description ">
+                    <span>NOTE - </span> SITE UNDER CONSTRUCTION
+                </h6>
+                <h6 class="project-content-description project-content-tech font-weight-five overflow-visible">
+                    TECHNOLOGIES :
+                </h6>
+                <h6 class="project-content-description">
+                    <span>Frontend - </span> Vue3, Matter-js, Vuetify.
+                </h6>
+                <h6 class="project-content-description">
+                    <span>DevOps - </span> EC2 (Linux), Nginx, Route53, Github Workflows & Actions
+                </h6>
+            </div>
+
+    <VideoComponent
+                videoSrc="https://ik.imagekit.io/4wtsetrh6/portfolio-project/hue-and-tint-studio.mp4?updatedAt=Latest" />
         </div>
     </div>
 </template>
@@ -52,13 +89,21 @@ export default {
 @import "@/styles/animations.scss";
 @import "@/styles/variables.scss";
 
+.project-container-wrapper{
+    padding:5rem 0;
+}
+.padding-right {
+    padding-right:5%;
+}
+.padding-left {
+    padding-left:5%;
+}
 .project-container {
     flex-wrap: wrap;
 }
 
 .project-content-container {
     width: 40%;
-    padding-left: 5%;
     align-items: flex-start;
 }
 
@@ -67,26 +112,29 @@ export default {
     font-weight: 500;
     width: 100%;
     justify-content: flex-start;
+
     a {
-    margin-left: 15%;
-    cursor:pointer;
+        margin-left: 15%;
+        cursor: pointer;
     }
 }
 
-.project-content-tech{
+.project-content-tech {
     padding: 0.7rem 0 0.2rem 0 !important;
     text-decoration: underline;
-    text-underline-offset: .3rem;    
+    text-underline-offset: .3rem;
 }
-.project-content-description{
+
+.project-content-description {
     line-height: 1.5rem;
-    color:white;
-    padding-top:.5rem;
+    color: white;
+    padding-top: .5rem;
+
     span {
         font-size: inherit;
         font-weight: 500;
         line-height: 1.5rem;
-        color:white;
+        color: white;
     }
 }
 
@@ -109,23 +157,25 @@ button {
     min-width: 6rem;
     background-color: white;
     color: black;
-    cursor:pointer;
+    cursor: pointer;
     // transition: background-color 0.3s, color 0.3s;
     animation: buttonAnimation 1s infinite;
 }
+
 @keyframes buttonAnimation {
     0% {
         background-color: white;
         color: black;
     }
+
     50% {
         background-color: grey;
         color: white;
     }
+
     100% {
         background-color: white;
         color: black;
     }
-}
-</style>
+}</style>
   
