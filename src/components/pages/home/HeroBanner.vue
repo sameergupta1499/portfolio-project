@@ -11,8 +11,8 @@
       with a strong focus on backend development and 4+ years of practical experience. I'm all about turning ideas into real, efficient solutions that help businesses grow. Welcome to my coding journey!
     </h5>
     <div class="flexCenter buttons-container">
-      <button outlined elevation="20" class="project-button" size="x-large" > PROJECTS </button>
-    <button outlined elevation="20" class="experience-button" size="x-large">EXPERIENCE</button>
+      <button class="project-button"> PROJECTS </button>
+    <button class="experience-button">EXPERIENCE</button>
     </div>
 
     </div>

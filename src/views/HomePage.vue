@@ -5,7 +5,7 @@
       <div id="scroll-container-parent">
         <div id="scroll-container" v-if="scrollbar !== null">
           <HeroBanner />
-          <PortfolioComponent />
+          <ProjectComponent />
         </div>
       </div>
     </div>
@@ -17,7 +17,7 @@ import { onMounted, provide, ref } from 'vue';
 import DummyComponent from '@/components/common/DummyComponent.vue';
 import NavigationBar from '@/components/common/NavigationBar.vue';
 import HeroBanner from '@/components/pages/home/HeroBanner.vue';
-import PortfolioComponent from '@/components/pages/home/PortfolioComponent.vue';
+import ProjectComponent from '@/components/pages/home/ProjectComponent.vue';
 import { init } from '@/utils/smoothScroll.js';
 export default {
   setup() {
@@ -34,7 +34,7 @@ export default {
     DummyComponent,
     NavigationBar,
     HeroBanner,
-    PortfolioComponent,
+    ProjectComponent,
   },
 };
 </script>

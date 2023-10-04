@@ -1,7 +1,7 @@
 <template>
-    <div class="container position-relative content-section margin-jitter">
-        <div class="container heading-wrapper">
-            <h3 class="">PROJECTS</h3>
+    <div class="container position-relative content-section margin-jitter overflow-visible">
+        <div class="container heading-wrapper overflow-visible">
+            <h3 class="overflow-visible">PROJECTS</h3>
         </div>
     </div>
 </template>
@@ -31,7 +31,8 @@ export default {
         color:white;
         padding:.1rem 0;
         font-weight: 600;
-
+        text-decoration: underline;
+        text-underline-offset: 1rem;
     }
 }
 .content-wrapper{
