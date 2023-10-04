@@ -3,7 +3,7 @@
     <!-- ECOMMERCE WEBSITE -->
     <div class="vpContainer hero-container position-relative">
         <div class="flexCenter project-container">
-            <VideoComponent videoSrc="/ecommerce-video.mp4" />
+            <VideoComponent videoSrc="https://ik.imagekit.io/4wtsetrh6/portfolio-project/ecommerce-video.mp4?updatedAt=Latest" />
             <div class="project-content-container flexCenterColumn overflow-visible">
                 <div class="project-content-header flexCenter">
                     <h4 class="white-color font-weight-five overflow-visible">
