@@ -14,17 +14,17 @@
                 <h6 class="project-content-description white-color ">
                     Fully functional product listing page for an ecommerce website.
                 </h6>
-                <h6 class="project-content-description font-weight-five">
-                    TECH:
+                <h6 class="project-content-description project-content-tech font-weight-five overflow-visible">
+                    TECHNOLOGIES :
                 </h6>
                 <h6 class="project-content-description ">
-                    <span>BACKEND: </span>  Python Django Rest Framework, PostgreSQL, Redis Cache.
+                    <span>Backend - </span>  Python, Django Rest Framework, PostgreSQL, Redis Cache.
                 </h6>
                 <h6 class="project-content-description">
-                    <span>FRONTEND: </span>  Vue3
+                    <span>Frontend - </span>  Vue3
                 </h6>
                 <h6 class="project-content-description">
-                    <span>DevOps: </span>   EC2 (Linux), Gunicorn, Nginx, Github Workflows & Actions, Github Pages, Amazon RDS PostgreSQL
+                    <span>DevOps -  </span>   EC2 (Linux), Gunicorn, Nginx, Github Workflows & Actions, Github Pages, Amazon RDS PostgreSQL
                 </h6>
             </div>
 
@@ -73,6 +73,11 @@ export default {
     }
 }
 
+.project-content-tech{
+    padding: 0.7rem 0 0.2rem 0 !important;
+    text-decoration: underline;
+    text-underline-offset: .3rem;    
+}
 .project-content-description{
     line-height: 1.5rem;
     color:white;
