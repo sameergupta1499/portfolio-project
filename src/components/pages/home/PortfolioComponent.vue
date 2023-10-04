@@ -1,71 +1,82 @@
 <template>
-    <div class="margin-jitter">
-        <div class="container position-relative content-section margin-jitter">
-            <div class="container heading-wrapper">
-                <h3 class="fontface-antonio">SELECTED <span class="yellow-color fontface-antonio font-size-inherit">GOOD
-                        WORK</span></h3>
+    <ProjectsLineComponent />
+    <div class="vpContainer hero-container position-relative">
+        <div class="flexCenter project-container">
+            <VideoComponent videoSrc="/ecommerce-video.mp4" />
+            <div class="project-content-container flexCenterColumn">
+                <h4 class="project-content-header white-color">
+                    Ecommerce Website
+                </h4>
+                <h6 class="project-content-description white-color">
+                    Fully functional product listing page for an ecommerce website.
+                </h6>
+                <h6 class="project-content-description font-weight-five white-color">
+                    TECH:
+                </h6>
+                <h6 class="project-content-description white-color">
+                    Backend: Python Django Rest Framework, PostgreSQL, Redis Cache.
+                </h6>
+                <h6 class="project-content-description white-color">
+                    Frontend: Vue3
+                </h6>
+                <h6 class="project-content-description white-color">
+                    DevOps: EC2 (Linux), Gunicorn, Nginx, Github Workflows & Actions, Github Pages, Amazon RDS PostgreSQL
+                </h6>
             </div>
+
+
         </div>
-        <RoundBGComponent v-for="(item, index) in data" :key="index" :number="index + 1" :title="item.title"
-            :description="item.description" :topColor="item.top_color" :backgroundColor="item.background_color"
-            :textColor="item.text_color" :leftCardUrl="item.left_card_url" :rightCardUrl="item.right_card_url" />
     </div>
 </template>
-
+    
 <script>
-import RoundBGComponent from '@/components/common/RoundBGComponent.vue';
-import { getCSSVariableValue } from '@/utils/utils';
+import ProjectsLineComponent from '@/components/pages/home/ProjectsLineComponent.vue';
+import VideoComponent from '@/components/pages/home/VideoComponent.vue';
+
 export default {
     setup() {
-        const data = [
-            {
-                "title": "TITAN",
-                "description": "What we did: Motion Graphics & Ad Designing",
-                "top_color": getCSSVariableValue('--black'),
-                "background_color": getCSSVariableValue('--yellow'),
-                "text_color": getCSSVariableValue('--black'),
-                "left_card_url": "https://images.ctfassets.net/8b1jz4cf6kyy/6aosNheaRtPUBQRf4RE2fx/48291d8abbe63cccb400c9efa0660fc1/45.png?w=1024&fm=webp&q=92",
-                "right_card_url": "https://images.ctfassets.net/8b1jz4cf6kyy/6aosNheaRtPUBQRf4RE2fx/48291d8abbe63cccb400c9efa0660fc1/45.png?w=1024&fm=webp&q=92",
-            },
-            {
-                "title": "SECRET ALCHEMIST",
-                "description": "What we did: Motion Graphics & Ad Designing",
-                "top_color": getCSSVariableValue('--yellow'),
-                "background_color": getCSSVariableValue('--almond'),
-                "text_color": getCSSVariableValue('--black'),
-                "left_card_url": "https://images.ctfassets.net/8b1jz4cf6kyy/6aosNheaRtPUBQRf4RE2fx/48291d8abbe63cccb400c9efa0660fc1/45.png?w=1024&fm=webp&q=92",
-                "right_card_url": "https://images.ctfassets.net/8b1jz4cf6kyy/6aosNheaRtPUBQRf4RE2fx/48291d8abbe63cccb400c9efa0660fc1/45.png?w=1024&fm=webp&q=92",
-            },
-            {
-                "title": "ASA BEAUTY",
-                "description": "What we did: Motion Graphics & Ad Designing",
-                "top_color": getCSSVariableValue('--almond'),
-                "background_color": getCSSVariableValue('--black'),
-                "text_color": getCSSVariableValue('--white'),
-                "left_card_url": "https://images.ctfassets.net/8b1jz4cf6kyy/6aosNheaRtPUBQRf4RE2fx/48291d8abbe63cccb400c9efa0660fc1/45.png?w=1024&fm=webp&q=92",
-                "right_card_url": "https://images.ctfassets.net/8b1jz4cf6kyy/6aosNheaRtPUBQRf4RE2fx/48291d8abbe63cccb400c9efa0660fc1/45.png?w=1024&fm=webp&q=92",
-            }
-        ]
         return {
-            data,
-        }
+        };
     },
     components: {
-        RoundBGComponent,
+        ProjectsLineComponent,
+        VideoComponent
     },
-}
+};
 </script>
-
 <style lang="scss" scoped>
-.content-section {
-    background: var(--black);
-    text-align: center;
-    padding: 3.5rem 0 1rem;
+@import "@/styles/animations.scss";
+@import "@/styles/variables.scss";
+
+.project-container{
+    flex-wrap: wrap;
+}
+.project-content-container {
+    width: 40%;
+    padding-left: 5%;
+    align-items: flex-start;
 }
 
-.heading-wrapper {
-    h3 {
-        color: white;
+.project-content-header {
+    padding-bottom: 1rem;
+    font-weight: 500;
+}
+
+.project-content-description {
+    line-height: 1.8rem;
+}
+
+@media (max-width: 768px) {
+    .project-content-container {
+        width: 80%;
+        padding: 10%;
+        align-items: flex-start;
+        text-align: center;
+        align-items: center;
+    }
+    .project-content-header {
+        text-align: center;
     }
 }
 </style>
+  

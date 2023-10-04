@@ -1,117 +1,143 @@
 // heights and width
 @import "@/styles/variables.scss";
-.vpH{
-    height:100vh;
+
+.vpH {
+    height: 100vh;
 }
-.vpW{
-    width:100vw;
+
+.vpW {
+    width: 100vw;
 }
-.vpContainer{
+
+.vpContainer {
     width: 100vw;
     height: 100vh;
 }
-.container{
+
+.container {
     width: 100%;
     height: 100%;
 }
-.content-box{
+
+.content-box {
     box-sizing: content-box;
 }
 
 .position-relative {
-    position:relative;
+    position: relative;
 }
 
 .position-absolute {
-    position:absolute;
+    position: absolute;
 }
+
 .flexCenter {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .flexCenterColumn {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 .content-wrapper {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.hidden{
-    display:none;
+
+.hidden {
+    display: none;
 }
+
 .font-size-inherit {
-   font-size: inherit;
-} 
+    font-size: inherit;
+}
+
 .font-family-inherit {
-   font-family: inherit;
-} 
-.position-relative{
-    position:relative;
+    font-family: inherit;
 }
-.orange-hover:hover{
-    color:$orange-color;
+
+.font-weight-five {
+    font-weight: 500;
 }
-.overflow-visible{
+
+.position-relative {
+    position: relative;
+}
+
+.orange-hover:hover {
+    color: $orange-color;
+}
+
+.overflow-visible {
     overflow: visible;
 }
+
 // Matter-styling
 .matter-objects {
     position: absolute;
-    background: black ;
+    background: black;
     user-select: none;
     display: flex;
     align-items: center;
     justify-content: center;
     width: auto;
-    height:auto;
+    height: auto;
     padding: 1.5rem 2rem;
     overflow: hidden;
     border-radius: 7rem;
     white-space: nowrap;
     box-sizing: border-box;
-    z-index:6;
+    z-index: 6;
     // transition: top .1s ease, left .1s ease; 
-  }
-  
-  .matter-object-title {
+}
+
+.matter-object-title {
     color: black;
     overflow: hidden;
     font-size: 1.3rem;
     white-space: nowrap;
     box-sizing: border-box;
     font-weight: 600;
-    z-index:7;
-    overflow:visible;
-  }
-  .test-border {
+    z-index: 7;
+    overflow: visible;
+}
+
+.test-border {
     border: 2px solid red;
-  }
-  
-  .fontface-brand{
+}
+
+.fontface-brand {
     font-family: 'Brand', sans-serif;
-  }
-.fontface-fortune{
+}
+
+.fontface-fortune {
     font-family: 'Fortune', sans-serif;
 }
-.fontface-revamped{
+
+.fontface-revamped {
     font-family: 'Revamped', sans-serif;
 }
-.fontface-antonio{
+
+.fontface-antonio {
     font-family: 'Antonio', sans-serif;
-    font-weight:600;
+    font-weight: 600;
 }
+
 .yellow-color {
     color: var(--yellow) !important;
 }
+
 .white-color {
     color: var(--white) !important;
 }
+
 .margin-jitter {
     margin: -1px 0;
 }

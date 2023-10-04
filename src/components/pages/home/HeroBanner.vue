@@ -1,14 +1,20 @@
 <template>
   <div class="vpContainer hero-container position-relative flexCenter">
     <div class="hero-content flexCenterColumn overflow-visible">
-      <h4 class="hero-description-top white-color overflow-visible">Hi, My name is Sameer Gupta,</h4>
+      <h5 class="hero-description-top white-color overflow-visible">Hi, My name is Sameer Gupta,</h5>
     <div class="hero-hedding-container">
       <h2 class="hero-heading white-color fontface-revamped flexCenterColumn">
       FULL-STACK WEB DEVELOPER
     </h2>
     </div>
-    <h4 class="hero-description-bottom white-color overflow-visible">
-      with a strong focus on backend development and 4+ years of practical experience. I'm all about turning ideas into real, efficient solutions that help businesses grow. Welcome to my coding journey!</h4>
+    <h5 class="hero-description-bottom white-color overflow-visible">
+      with a strong focus on backend development and 4+ years of practical experience. I'm all about turning ideas into real, efficient solutions that help businesses grow. Welcome to my coding journey!
+    </h5>
+    <div class="flexCenter buttons-container">
+      <button outlined elevation="20" class="project-button" size="x-large" > PROJECTS </button>
+    <button outlined elevation="20" class="experience-button" size="x-large">EXPERIENCE</button>
+    </div>
+
     </div>
 
   </div>
@@ -66,6 +72,27 @@ export default {
 .hero-description-bottom {
   z-index: 2;
   text-align: center;
+  line-height: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.buttons-container {
+  padding-top:1rem;
+  z-index: 2;
+}
+button{
+  padding:1rem 2rem;
+  border-radius: 1rem;
+  min-width: 10rem;
+}
+button:hover {
+  background:#666;
+  color:white;
+  padding:1rem 2rem;
+  border-radius: 1rem;
+}
+.experience-button{
+  margin-left:5rem;
 }
 .hero-hedding-container{
  padding:1rem;
