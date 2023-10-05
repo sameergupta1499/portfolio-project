@@ -7,6 +7,7 @@
           <HeroBanner />
           <AboutMeComponent />
           <ProjectComponent />
+          <ExperienceComponent />
           <DummyComponent />
         </div>
       </div>
@@ -21,6 +22,7 @@ import NavigationBar from '@/components/common/NavigationBar.vue';
 import HeroBanner from '@/components/pages/home/HeroBanner.vue';
 import ProjectComponent from '@/components/pages/home/ProjectComponent.vue';
 import AboutMeComponent from '@/components/pages/home/AboutMeComponent.vue';
+import ExperienceComponent from '@/components/pages/home/ExperienceComponent.vue';
 import { init } from '@/utils/smoothScroll.js';
 export default {
   setup() {
@@ -39,6 +41,7 @@ export default {
     HeroBanner,
     ProjectComponent,
     AboutMeComponent,
+    ExperienceComponent,
   },
 };
 </script>

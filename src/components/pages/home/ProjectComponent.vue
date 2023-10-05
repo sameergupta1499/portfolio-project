@@ -153,6 +153,7 @@ export default {
 
     .project-content-header {
         text-align: center;
+        justify-content: center;
     }
 }
 

@@ -14,7 +14,7 @@
     <div class="flexCenter buttons-container">
       <button class="project-button font-weight-five" @click="scrollTO('section_about_me')"> ABOUT ME </button>
       <button class="recent-projects-button font-weight-five" @click="scrollTO('section_recent_project')"> RECENT PROJECTS </button>
-    <button class="experience-button font-weight-five">EXPERIENCE</button>
+    <button class="experience-button font-weight-five" @click="scrollTO('section_experience')">EXPERIENCE</button>
     </div>
 
     </div>
