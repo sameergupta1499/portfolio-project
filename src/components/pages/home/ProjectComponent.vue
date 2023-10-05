@@ -1,9 +1,9 @@
 <template>
-    <ProjectsSectionHeadingComponent />
+    <SectionHeadingComponent data="RECENT PROJECTS" section_id="section_recent_project"/>
 
     <!-- ECOMMERCE WEBSITE -->
     <div class="container project-container-wrapper position-relative">
-        <div class="flexCenter project-container">
+        <div class="flexCenter project-container overflow-visible">
             <VideoComponent
                 videoSrc="https://ik.imagekit.io/4wtsetrh6/portfolio-project/portfolioProjectVideo.mp4?updatedAt=Latest" />
             <div class="project-content-container padding-left flexCenterColumn overflow-visible">
@@ -38,20 +38,20 @@
 
     <!-- HUE AND TINT STUDIO -->
     <div class="container project-container-wrapper position-relative">
-        <div class="flexCenter project-container">
+        <div class="flexCenter project-container overflow-visible">
             <div class="project-content-container padding-right flexCenterColumn overflow-visible">
                 <div class="project-content-header flexCenter">
                     <h4 class="white-color font-weight-five overflow-visible">
                         Hue And Tint Studio
                     </h4>
-                    <a href="https://www.hueandtintstudio.com/" target="_blank"><button
-                            class="try-now-button">Try Now</button></a>
+                    <a href="https://www.hueandtintstudio.com/" target="_blank"><button class="try-now-button">Try
+                            Now</button></a>
                 </div>
                 <h6 class="project-content-description white-color ">
-                    A portfolio website showcasing the creative works of a graphic designer.
+                    A portfolio mobile responsive website showcasing the creative works of a graphic designer.
                 </h6>
                 <h6 class="project-content-description ">
-                    <span>NOTE - </span> SITE UNDER CONSTRUCTION
+                    <a href="https://www.hueandtintstudio.com/" target="_blank"><button class="try-now-button padding-rem">SITE UNDER CONSTRUCTION</button></a>
                 </h6>
                 <h6 class="project-content-description project-content-tech font-weight-five overflow-visible">
                     TECHNOLOGIES :
@@ -64,14 +64,14 @@
                 </h6>
             </div>
 
-    <VideoComponent
+            <VideoComponent
                 videoSrc="https://ik.imagekit.io/4wtsetrh6/portfolio-project/hueandtintstudiovideo.mp4?updatedAt=Latest" />
         </div>
     </div>
 </template>
     
 <script>
-import ProjectsSectionHeadingComponent from '@/components/pages/home/ProjectsSectionHeadingComponent.vue';
+import SectionHeadingComponent from '@/components/pages/home/SectionHeadingComponent.vue';
 import VideoComponent from '@/components/pages/home/VideoComponent.vue';
 
 export default {
@@ -80,7 +80,7 @@ export default {
         };
     },
     components: {
-        ProjectsSectionHeadingComponent,
+        SectionHeadingComponent,
         VideoComponent
     },
 };
@@ -89,15 +89,20 @@ export default {
 @import "@/styles/animations.scss";
 @import "@/styles/variables.scss";
 
-.project-container-wrapper{
-    padding:5rem 0;
+.project-container-wrapper {
+    padding: 5rem 0;
 }
+
 .padding-right {
-    padding-right:5%;
+    padding-right: 5%;
 }
+
 .padding-left {
-    padding-left:5%;
+    padding-left: 5%;
 }
+
+
+
 .project-container {
     flex-wrap: wrap;
 }

@@ -5,6 +5,7 @@
       <div id="scroll-container-parent">
         <div id="scroll-container" v-if="scrollbar !== null">
           <HeroBanner />
+          <AboutMeComponent />
           <ProjectComponent />
         </div>
       </div>
@@ -18,6 +19,7 @@ import DummyComponent from '@/components/common/DummyComponent.vue';
 import NavigationBar from '@/components/common/NavigationBar.vue';
 import HeroBanner from '@/components/pages/home/HeroBanner.vue';
 import ProjectComponent from '@/components/pages/home/ProjectComponent.vue';
+import AboutMeComponent from '@/components/pages/home/AboutMeComponent.vue';
 import { init } from '@/utils/smoothScroll.js';
 export default {
   setup() {
@@ -35,6 +37,7 @@ export default {
     NavigationBar,
     HeroBanner,
     ProjectComponent,
+    AboutMeComponent,
   },
 };
 </script>

@@ -37,5 +37,6 @@ export function useScrollTracker() {
     scrollY,
     viewportWidth,
     viewportHeight,
+    scrollbar
   };
 }

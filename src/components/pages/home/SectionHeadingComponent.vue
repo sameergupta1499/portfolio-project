@@ -1,7 +1,7 @@
 <template>
-    <div class="container position-relative content-section margin-jitter overflow-visible">
+    <div :id="section_id" class="container position-relative content-section margin-jitter overflow-visible">
         <div class="container heading-wrapper overflow-visible">
-            <h3 class="overflow-visible">PROJECTS</h3>
+            <h3 class="overflow-visible">{{ data }}</h3>
         </div>
     </div>
 </template>
@@ -10,6 +10,10 @@
 
 <script>
 export default {
+    props: {
+        data: String, // Define the prop type as String
+        section_id: String
+    },
     setup() {
         return {
         };
@@ -23,7 +27,7 @@ export default {
 .content-section {
     background:var(--black);
     text-align: center;
-    padding: 3.5rem 0 6rem;
+    padding: 3.5rem 0 3rem;
     // margin-top: 2px;
 }
 .heading-wrapper{

@@ -130,22 +130,13 @@ $logoHeight: 9vh;
 .navbar-logo-container {
     height: $logoHeight;
     padding: calc($navbar-padding-l * 0.7);
-    // left: calc(50% + calc($navbar-padding-l * 0.7));
-    // -webkit-transform: translateX(calc(-50% - calc($navbar-padding-l * 0.7)));
-    // /* Safari and Chrome */
-    // -moz-transform: translateX(calc(-50% - calc($navbar-padding-l * 0.7)));
-    // /* Firefox */
-    // -ms-transform: translateX(calc(-50% - calc($navbar-padding-l * 0.7)));
-    // /* IE */
-    // -o-transform: translateX(calc(-50% - calc($navbar-padding-l * 0.7)));
-    // /* Opera */
-    // transform: translateX(calc(-50% - calc($navbar-padding-l * 0.7)));
 }
 
 #logo-img {
     height: 80%;
     width: auto;
     object-fit: contain;
+    margin: .6rem 1rem 1rem 1rem;
 }
 
 .contact-links {
