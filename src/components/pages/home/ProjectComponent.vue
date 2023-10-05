@@ -38,7 +38,7 @@
 
     <!-- HUE AND TINT STUDIO -->
     <div class="container project-container-wrapper position-relative">
-        <div class="flexCenter project-container overflow-visible">
+        <div class="flexCenter hue-tint-project-container project-container overflow-visible">
             <div class="project-content-container padding-right flexCenterColumn overflow-visible">
                 <div class="project-content-header flexCenter">
                     <h4 class="white-color font-weight-five overflow-visible">
@@ -154,6 +154,9 @@ export default {
     .project-content-header {
         text-align: center;
         justify-content: center;
+    }
+    .hue-tint-project-container {
+        flex-direction: column-reverse;
     }
 }
 
