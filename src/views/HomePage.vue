@@ -7,6 +7,7 @@
           <HeroBanner />
           <AboutMeComponent />
           <ProjectComponent />
+          <DummyComponent />
         </div>
       </div>
     </div>

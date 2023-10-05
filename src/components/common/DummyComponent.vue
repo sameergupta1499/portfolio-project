@@ -13,8 +13,8 @@
   <style scoped>
   .dummy-component {
     position:relative;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 20vh;
     background-color: black; /* Optional background color */
     /* Add any other styles you need for your dummy component */
   }
