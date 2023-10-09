@@ -74,7 +74,7 @@ export default {
 </script>
   
 <style lang="scss" scoped>
-$max-timeline-width: 60%;
+$max-timeline-width: 80%;
 
 .timeline-container {}
 
@@ -163,7 +163,7 @@ h6 {
 }
 @media (max-width: 768px) {
     .timeline {
-        max-width: 70%;
+        max-width: 80%;
     }
 }
 </style>
