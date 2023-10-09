@@ -6,7 +6,7 @@
                 <img src="/about_me.png" id="about-me-img" alt="about-me" />
             </div>
             <div class="about-me-content-container">
-                <h5 class="white-color">Hey there, I'm Sameer Gupta, a web developer based in Toronto, Canada. With over 4.5 years of experience, I'm your go-to guy for Python and backend wizardry, with a special affinity for Django Rest Framework.<br /><br />
+                <h5 class="white-color">Hey there, I'm Sameer Gupta, a full-stack developer based in Toronto, Canada. With over 4.5 years of experience, I'm your go-to guy for Python and backend wizardry, with a special affinity for Django Rest Framework.<br /><br />
 
 But that's not the whole story. My skill set is a dynamic mix that includes Vue3, HTML, CSS, JavaScript, PostgreSQL, Redis, Restful APIs, and a host of other tech tools. Clean code is my mantra, and I'm a strong advocate for test-driven development. From software design to unit testing, I've got the know-how.<br/><br/>
 
