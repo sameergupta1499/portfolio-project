@@ -50,7 +50,10 @@
     justify-content: center;
     align-items: center;
 }
-
+.bold-inherit {
+    font-size: inherit;
+    color: inherit;
+}
 .hidden {
     display: none;
 }
@@ -143,6 +146,9 @@
 }
 .padding-top-half-rem {
     padding-top:.5rem;
+}
+.padding-bottom-half-rem {
+    padding-bottom:.5rem;
 }
 .padding-rem {
     padding: 1rem !important;

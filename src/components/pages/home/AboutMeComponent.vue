@@ -6,15 +6,13 @@
                 <img src="/about_me.png" id="about-me-img" alt="about-me" />
             </div>
             <div class="about-me-content-container">
-                <h5 class="white-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam labore, eum
-                    quibusdam
-                    velit enim
-                    iste culpa eveniet aliquam. Veniam, quasi fugiat? Vitae nobis cupiditate iure autem beatae consequuntur
-                    nam!
-                    Animi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam labore, eum quibusdam velit enim
-                    iste culpa eveniet aliquam. Veniam, quasi fugiat? Vitae nobis cupiditate iure autem beatae consequuntur
-                    nam!
-                    Animi!</h5>
+                <h5 class="white-color">Hey there, I'm Sameer Gupta, a web developer based in Toronto, Canada. With over 4.5 years of experience, I'm your go-to guy for Python and backend wizardry, with a special affinity for Django Rest Framework.<br /><br />
+
+But that's not the whole story. My skill set is a dynamic mix that includes Vue3, HTML, CSS, JavaScript, PostgreSQL, Redis, Restful APIs, and a host of other tech tools. Clean code is my mantra, and I'm a strong advocate for test-driven development. From software design to unit testing, I've got the know-how.<br/><br/>
+
+My journey has seen me delve into the world of Full Stack Web Development, and I'm well-versed in Nginx, Gunicorn, Github Actions, Docker, Jira, and Git. Whether it's crafting sleek desktop apps or dynamic web experiences, I'm always ready to tackle challenges and deliver outstanding results.<br/><br/>
+
+Let's collaborate and create something truly extraordinary!</h5>
             </div>
         </div>
     </div>
@@ -58,8 +56,8 @@ export default {
 }
 
 .about-me-content-container {
-    width: 40%;
-    margin-left: 5%;
+    width: 60%;
+    margin-left: 2%;
     padding: 3%;
     background: grey;
     border-radius: 3rem;
@@ -67,6 +65,11 @@ export default {
     -webkit-border-radius: 3rem;
     -moz-border-radius: 3rem;
     border-radius: 3rem;
+    h6{
+        br{
+            padding-bottom:1rem;
+        }
+    }
 }
 @media (max-width: 768px) {
     .about-me-img-container{

@@ -34,7 +34,10 @@ a {
 ul, ol {
   list-style: none; /* Remove bullet points from list items */
 }
-
+b {
+  font-size: inherit;
+  color: inherit;
+}
 /* Typography Styles */
 h1, h2, h3, h4, h5, h6 {
   // margin: 0.5em 0;
