@@ -6,13 +6,13 @@
             </a>
         </div>
         <div class="navbar-logo-container">
-            <a href="https://www.linkedin.com/in/sameer-gupta-a9531612a" class="logo-link" target="_blank">
+            <a href="https://www.linkedin.com/in/guptasamofficial/" class="logo-link" target="_blank">
                 <img src="/linkedin.png" class="contact-links" id="linkedin-img" alt="linkedin-img" />
             </a>
             <a href="https://github.com/sameergupta1499" class="logo-link" target="_blank">
                 <img src="/github.png" class="contact-links" id="github-img" alt="github-img" />
             </a>
-            <a href="" class="logo-link" target="_blank">
+            <a href="/Sameer Gupta.pdf" class="logo-link" target="_blank" download="Sameer Gupta.pdf">
                 <img src="/resume.png" class="contact-links" id="resume-img" alt="resume-img" />
             </a>
             <!-- <a target="_blank" rel="noopener" class="logo-link" data-umami-event="mail-social-hero" href="mailto:me@diogotc.com"

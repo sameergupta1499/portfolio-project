@@ -4,7 +4,7 @@
       <h5 class="hero-description-top white-color overflow-visible">Hi, My name is Sameer Gupta,</h5>
     <div class="hero-hedding-container">
       <h2 class="hero-heading white-color fontface-revamped flexCenterColumn">
-      FULL-STACK WEB DEVELOPER
+      FULL-STACK DEVELOPER
     </h2>
     </div>
     <h5 class="hero-description-bottom white-color overflow-visible">

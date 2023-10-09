@@ -25,17 +25,17 @@ export default {
             timelineItems: [
                 {
                     title: 'ACCENTURE SOLUTIONS PRIVATE LTD.',
-                    date: 'Jan 2022 - Oct 2023 · 1 yr 10 mos',
+                    date: 'Applications Development Senior Analyst · Jan 2022 - Oct 2023 · 1 yr 10 mos',
                     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam labore, eum quibusdam velit enim iste culpa eveniet aliquam. Veniam, quasi fugiat? Vitae nobis cupiditate iure autem beatae consequuntur nam! Animi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam labore, eum quibusdam velit enim iste culpa eveniet aliquam. Veniam, quasi fugiat? Vitae nobis cupiditate iure autem beatae consequuntur nam! Animi!',
                 },
                 {
                     title: 'TATA CONSULTANCY SERVICES LTD.',
-                    date: 'Jun 2019 - Jan 2022 · 2 yrs 8 mos',
+                    date: 'System Engineer · Jun 2019 - Jan 2022 · 2 yrs 8 mos',
                     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam labore, eum quibusdam velit enim iste culpa eveniet aliquam. Veniam, quasi fugiat? Vitae nobis cupiditate iure autem beatae consequuntur nam! Animi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam labore, eum quibusdam velit enim iste culpa eveniet aliquam. Veniam, quasi fugiat? Vitae nobis cupiditate iure autem beatae consequuntur nam! Animi!',
                 },
                 {
                     title: 'LANDIS + GYR LTD. (Internship)',
-                    date: 'May 2018 - Jul 2018 · 3 mos',
+                    date: 'Intern · May 2018 - Jul 2018 · 3 mos',
                     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam labore, eum quibusdam velit enim iste culpa eveniet aliquam. Veniam, quasi fugiat? Vitae nobis cupiditate iure autem beatae consequuntur nam! Animi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam labore, eum quibusdam velit enim iste culpa eveniet aliquam. Veniam, quasi fugiat? Vitae nobis cupiditate iure autem beatae consequuntur nam! Animi!',
                 },
                 // Add more timeline items here
