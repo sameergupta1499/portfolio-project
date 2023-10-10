@@ -12,7 +12,7 @@
             <a href="https://github.com/sameergupta1499" class="logo-link" target="_blank">
                 <img src="/github.png" class="contact-links" id="github-img" alt="github-img" />
             </a>
-            <a href="/Sameer Gupta.pdf" class="logo-link" target="_blank" download="Sameer Gupta.pdf">
+            <a href="https://drive.google.com/file/d/1a7J0L7EgDQJT3DzWucaUlixL_j2mEAdn/view?usp=sharing" class="logo-link" target="_blank">
                 <img src="/resume.png" class="contact-links" id="resume-img" alt="resume-img" />
             </a>
             <!-- <a target="_blank" rel="noopener" class="logo-link" data-umami-event="mail-social-hero" href="mailto:me@diogotc.com"
