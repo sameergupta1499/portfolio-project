@@ -60,7 +60,7 @@
                     <span>Frontend - </span> Vue3, Matter-js, Vuetify.
                 </h6>
                 <h6 class="project-content-description">
-                    <span>DevOps - </span> EC2 (Linux), Nginx, Route53, Github Workflows & Actions
+                    <span>DevOps - </span> EC2 (Linux), Nginx, Route53, Github Workflows & Actions, S3 Bucket, Cloudfront, AWS 
                 </h6>
             </div>
 
